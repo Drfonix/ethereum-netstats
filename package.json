@@ -1,6 +1,6 @@
 {
-  "name": "ethstats-server",
-  "description": "Ethstats Network Dashboard",
+  "name": "ethereum-netstats",
+  "description": "Ethereum Stats Network Dashboard",
   "version": "0.2.0",
   "private": true,
   "engines": {

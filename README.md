@@ -20,7 +20,7 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/goerli/ethstats-server
+git clone https://github.com/Drfonix/ethereum-netstats.git
 cd ethstats-server
 npm install
 sudo npm install -g grunt-cli
@@ -43,7 +43,7 @@ grunt poa --configPath="src/js/someOtherConfig.js"
 Start a node process and pass the websocket secret to it.
 
 ```bash
-WS_SECRET="asdf" npm start
+WS_SECRET="ethstats-server" npm start
 ```
 Find the interface at http://localhost:3000
 
@@ -57,7 +57,7 @@ Same as above, just run the `pow` build task in Grunt.
 
 ```bash
 grunt pow
-WS_SECRET="asdf" npm start
+WS_SECRET="ethstats-server" npm start
 ```
 
 :-)

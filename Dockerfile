@@ -1,4 +1,4 @@
-FROM node:lts-alpine AS builder
+FROM node:16.17.0-alpine AS builder
 ARG GRUNT_TASK=default
 WORKDIR /ethstats-server
 COPY ["package.json", "package-lock.json*", "./"]
